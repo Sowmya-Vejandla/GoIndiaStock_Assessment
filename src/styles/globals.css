@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 769px) and (max-width: 1268px) {
+    .main{
+        flex-direction: column;
+    }
+    .sidebar{
+        position: fixed;
+    }
+    .discussionSection{
+        width: 100vw;
+    }
+    .crossMenu{
+        display : flex;
+        position: absolute;
+        margin-top: 40rem;
+        margin-left: 85%;
+    }
+    .marketStoriesSection{
+        width: 94vw;
+        margin: 0 auto;
+    }
+    .allStories{
+        display: flex;
+        flex-direction: row;
+    }
+    .storyCard{
+        height: 20rem;
+    }
+
+}
